@@ -3,6 +3,7 @@ head {
 	font-family: 'Spirax', cursive;
 	font-size: 50px;
 	color:gold;
+	background:white;
 }
 body {
 	background-color: black;
@@ -150,4 +151,23 @@ margin-bottom: 30px;
     border-left: none;
     height: 300px;
 }
+.logo h1 {
+	position: relative;
+	animation-name: myanimation;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+}
+.logo h1 {
 
+}
+
+@keyframes myanimation {
+	0% {background-color: black;left: 0px; top: 0px;}
+	25%{background-color:gold; left:500px; top:0px;}
+	50%{background-color:black;}
+	75%{background-color:gold;}
+	85% {border-color:maroon;}
+	100% {background-color:gold;}
+
+
+}
