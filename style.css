@@ -154,20 +154,27 @@ margin-bottom: 30px;
 .logo h1 {
 	position: relative;
 	animation-name: myanimation;
-	animation-duration:4s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse; ;
+	animation-timing-function: ease-in-out;
+
 }
 .logo h1 {
 
 }
 
 @keyframes myanimation {
-	0% {background-color: black;left: 0px; top: 0px;}
-	25%{background-color:gold; left:500px; top:0px;}
-	50%{background-color:black;}
-	75%{background-color:gold;}
-	85% {border-color:maroon;}
+	0% {background-color: black;left: 0px; top: 0px; border-radius:25% 25% 25% 25%;}
+	25%{background-color:gold; left:400px; top:0px;border-radius:30% 30% 90% 10; }
+	50%{background-color:black; lefft:0px; top:0px; border-radius: 50% 50%;}
+	75%{background-color:gold; border-radius: 30% 40% 30%}
+	85% {border-color:black; border-radius: 25% 25% 25% 25%;}
 	100% {background-color:gold;}
 
+
+}
+.mj {
+	float:right;
 
 }
