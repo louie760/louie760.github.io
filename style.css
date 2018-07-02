@@ -15,12 +15,9 @@ div {
 	margin-bottom:5px;
 	margin-left:0px;
 	margin-right:100px;
-	font-size:60px;
+	font-size:70px;
 	padding-left:70px;
 	font-weight:bolder;
-	
-
-
 }
 h1 {
 	color:gold;
@@ -48,13 +45,7 @@ a {
 	font-size:20px;
 }
 .greg {
-	margin-top: 10px;
-	padding-top: 100px;
-	padding-bottom: -100px;
-	border-radius: 200px;
-	
-	margin-bottom: 5px;
-	
+	margin-left: -60px;			
 }
 
 p {
@@ -96,20 +87,28 @@ margin-bottom: 30px;
 }
 
 .page2 {
-       
+       color:maroon;
 	font-size:26px;
 	float:right;
-	margin-left: 450px;
+	margin-left: 600px;
+	margin-top: -400px;
+	/*margin-bottom: 400px;*/
+	/*padding-top: -400px;*/
+
+}
+.p2 {
+	float:left;
+	font-size:25px;
+	margin-right:550px;
+	margin-top:-400px;
+	color:maroon;
+}
+.louie{
+	float:right;
+	margin-right:10px;
 }
 
-
-}
-.ocean {
-	
-	padding-left: 10px;
-	padding-right:100px;
-}
-/* Style the tab */
+ /*Style the tab */
 .tab {
     float: left;
     border: 1px solid #ccc;
@@ -145,11 +144,11 @@ margin-bottom: 30px;
 /* Style the tab content */
 .tabcontent {
     float: center;
-    padding: 0px 12px;
+    padding: 10px 0px -10px 0px;
     border: 3px solid #ccc;
     width: 70%;
     border-left: none;
-    height: 300px;
+    height: 350px;
 }
 .logo h1 {
 	position: relative;
@@ -158,16 +157,12 @@ margin-bottom: 30px;
 	animation-iteration-count: infinite;
 	animation-direction: alternate-reverse; ;
 	animation-timing-function: ease-in-out;
-
-}
-.logo h1 {
-
 }
 
 @keyframes myanimation {
 	0% {background-color: black;left: 0px; top: 0px; border-radius:25% 25% 25% 25%;}
 	25%{background-color:gold; left:400px; top:0px;border-radius:30% 30% 90% 10; }
-	50%{background-color:black; lefft:0px; top:0px; border-radius: 50% 50%;}
+	50%{background-color:black; left:0px; top:0px; border-radius: 50% 50%;}
 	75%{background-color:gold; border-radius: 30% 40% 30%}
 	85% {border-color:black; border-radius: 25% 25% 25% 25%;}
 	100% {background-color:gold;}
@@ -175,6 +170,16 @@ margin-bottom: 30px;
 
 }
 .mj {
-	float:right;
+	margin-right: 50
+	margin-bottom:50px;
 
+}
+.ocean {
+	margin-left:-51px;
+}
+.p3 {
+	color:maroon;
+	margin-left:650px;
+	margin-top:-500px;
+	font-size:25px;
 }
